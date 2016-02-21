@@ -1,0 +1,123 @@
+<mvc:View 
+  height="100%" 
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="com.tallymarks.z_fiori_test.view.caseDetail" 
+  xmlns="sap.m"> 
+  <Page
+    title="Case"
+    showNavButton="true"
+    navButtonPress="onPressMasterBack"
+    >
+    <content>
+	<ObjectHeader
+		id="oh1"
+		responsive="true"
+		fullScreenOptimized="false"
+		intro="Description"
+		title="Name"
+		number="01"
+		numberUnit="CurrencyCode"
+		numberState="Success"
+		backgroundDesign="Translucent">
+		<attributes>			
+			<ObjectAttribute
+				title="Notice Date"
+				text="13-11-2014"/>
+			<ObjectAttribute
+				title="Signed date"
+				text="31-12-2013"/>
+                <ObjectAttribute
+				title="Expiry date	"
+				text="31-12-2014"/>			
+		</attributes>
+		<statuses>
+ 			<ObjectStatus
+				title="Approval"
+				text="Active"
+				state="Warning"/>
+		</statuses>
+		<headerContainer>
+			<IconTabBar
+				id="itb1"
+				selectedKey="key3"
+				upperCase="true"
+				class="sapUiResponsiveContentPadding">
+				<items>					
+					<IconTabFilter
+						icon="sap-icon://attachment"
+						count="4">
+						<Table
+                            selectionChange="handleSelectionChange"
+                            inset="false"
+                            id="idProductsTable">
+                            <headerToolbar>
+                                <Toolbar
+                                    id="idCrumbToolbar" />
+                            </headerToolbar>
+                            <columns>
+                                <Column
+                                    width="12em">
+                                    <Text text="Name" />
+                                </Column>
+                                <Column
+                                    id="dimensionsColumn"
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Right"
+                                    visible="false">
+                                    <Text text="Notice date" />
+                                </Column>
+                                <Column
+                                    id="weightColumn"
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Center"
+                                    visible="false">
+                                    <Text text="Status" />
+                                </Column>                                
+                                <Column
+                                    id="ExpiryColumn"
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Right"
+                                    visible="false"
+                                    >
+                                    <Text text="Expiry date" />
+                                </Column>
+                                <Column
+                                    id="SignedColumn"
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Right"
+                                    visible="false">
+                                    <Text text="Signed date" />
+                                </Column>
+                            </columns>
+                        </Table>
+					</IconTabFilter>
+					<IconTabFilter
+						icon="sap-icon://notes"
+						>
+						<Text text="Notes go here ..." />
+					</IconTabFilter>
+					
+					<IconTabFilter
+						icon="sap-icon://hint">
+						<Text text="Info content goes here ..." />
+					</IconTabFilter>
+					
+				</items>
+			</IconTabBar>
+		</headerContainer>
+	</ObjectHeader>
+    </content>
+    <footer>
+        <Toolbar>
+            <ToolbarSpacer/>
+            <Button text="Accept" type="Accept" />
+            <Button text="Reject" type="Reject" />
+            <Button text="Delete" />
+        </Toolbar>
+    </footer>
+  </Page>
+</mvc:View>

@@ -1,0 +1,102 @@
+<mvc:View
+  height="100%"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core" 
+  controllerName="com.tallymarks.z_fiori_test.view.detail"
+  xmlns="sap.m">
+  <Page
+    title="Tasks"
+    class="sapUiContentPadding">
+    <content>
+        <ObjectHeader
+            backgroundDesign="Solid"
+            binding="{/Contracts/0}"
+            title="{name}"
+            icon="{categoryicon}"
+            number="{noOfFields}"
+            numberState="Success"
+            numberUnit="Cases">
+        </ObjectHeader>       
+        <Table id="idProductsTable"
+            inset="false"
+            items="{/Contracts/0/fields}">
+            <headerToolbar>
+                <Toolbar>
+                    <!--<Title text="{name}" level="H2"/>-->
+                    <ToolbarSpacer/>
+                    <SearchField id="searchKeyName" liveChange="onSearchName" width="30%" placeholder="Search"/>
+                    <Select id="filterSelect" autoAdjustWidth="true" change="handleFilterChange"  icon="sap-icon://filter"
+                        type="IconOnly">
+                        <items>
+                            <core:Item key="AN" text="Sort Ascending by Name"/>
+                            <core:Item key="DN" text="Sort Descending by Name"/>
+                            <core:Item key="AS" text="Sort Status 'Active'"/>
+                            <core:Item key="DS" text="Sort Status 'Expired'"/>
+                        </items>
+                    </Select>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column
+                    width="12em">
+                    <Text text="Name" />
+                </Column>
+                <Column
+                    minScreenWidth="Tablet"
+                    demandPopin="true">
+                    <Text text="Notice date" />
+                </Column>
+                <Column
+                    minScreenWidth="Tablet"
+                    demandPopin="true"
+                    hAlign="Right">
+                    <Text text="Status" />
+                </Column>
+                <Column
+                    minScreenWidth="Tablet"
+                    demandPopin="true"
+                    hAlign="Center">
+                    <Text text="Signed date" />
+                </Column>
+                <Column
+                    hAlign="Right">
+                    <Text text="Expiry date" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem
+                type="Navigation"
+                press="onListItemPress">
+                    <cells>
+                        <Text
+                            text="{CustomerName}" />
+                            <Text
+                            text="{noticedate}" />
+                            <Text
+                            text="{status}" />
+                            <Text
+                            text="{signeddate}" />
+                            <Text
+                            text="{expirydate}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+		  <!--<List 
+            items="{/Contracts/0/fields}"            
+            >
+            <items>
+            <ObjectListItem
+                press="onListItemPress" 
+                title="{name}" 
+                type="Navigation"
+                icon="{image}"
+                
+                >
+                
+            </ObjectListItem>
+            </items>
+        </List>-->
+    </content>
+  </Page>
+</mvc:View>

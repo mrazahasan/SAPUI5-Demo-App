@@ -1,0 +1,23 @@
+<mvc:View 
+  height="100%" 
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="com.tallymarks.z_fiori_test.view.case" 
+  xmlns="sap.m"> 
+  <Page 
+    showNavButton="true"
+    navButtonPress="onPressMasterBack"
+    title="Case function"
+    class="sapUiContentPadding">
+    <content>
+      
+    </content>
+    <footer>
+        <Toolbar>
+            <ToolbarSpacer/>
+            <Button text="Accept" type="Accept" />
+            <Button text="Reject" type="Reject" />
+            <Button text="Delete" />
+        </Toolbar>
+    </footer>
+  </Page>
+</mvc:View>

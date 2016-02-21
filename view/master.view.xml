@@ -1,0 +1,28 @@
+<mvc:View 
+  height="100%" 
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="com.tallymarks.z_fiori_test.view.master" 
+  xmlns="sap.m"> 
+  <Page 
+    title="Tasks Types"
+    class="sapUiContentPadding">
+    <content>
+      <List 
+        items="{/Contracts}"
+        growing="true"
+		growingThreshold="10"
+		growingScrollToLoad="true"
+        >
+        <items>
+          <ObjectListItem
+              press="onListItemPress" 
+              title="{name}" 
+              type="Navigation"
+              icon="{categoryicon}"
+              >
+          </ObjectListItem>
+        </items>
+      </List>
+    </content>
+  </Page>
+</mvc:View>

@@ -1,0 +1,413 @@
+{
+  "Contracts": [
+      {
+      "CustomerName": "All",
+      "name": "All",
+      "type": "Leased in",
+      "noOfFields":"10",
+      "categoryicon": "sap-icon://switch-views",
+      "fields": [ 
+           {
+            "CustomerName": "عبد الولِي",
+            "name": "Contract 2 ",
+            "type": "Leased in",
+            "signeddate": "31-12-2013",
+            "expirydate": "31-12-2014",
+            "status": "Expired",
+            "noticedate": "13-11-2014",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "هيفا وهبى",
+            "name": "Contract 3",
+            "type": "Leased out",
+            "signeddate": "17-04-2011",
+            "expirydate": "16-06-2013",
+            "status": "Expired",
+            "noticedate": "14-11-2012",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "سعد لمجرد",
+            "name": "Contract 4",
+            "type": "Commercial",
+            "signeddate": "19-04-2015",
+            "expirydate": "10-08-2016",
+            "status": "Active",
+            "noticedate": "12-03-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "حسين الجسمي",
+            "name": "Contract 5",
+            "type": "Leased in",
+            "signeddate": "30-12-2015",
+            "expirydate": "12-08-2017",
+            "status": "Active",
+            "noticedate": "13-11-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },        
+            {
+            "CustomerName": "Hassan Zahid",
+            "name": "Contract 6",
+            "type": "Leased in",
+            "signeddate": "23-12-2008",
+            "expirydate": "25-12-2010",
+            "status": "Expired",
+            "noticedate": "21-11-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "عبد القادر",
+            "name": "Contract 7",
+            "type": "Leased in",
+            "signeddate": "11-09-2007",
+            "expirydate": "12-10-2011",
+            "status": "Expired",
+            "noticedate": "13-12-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Faizal Saleem",
+            "name": "Contract 7",
+            "type": "Leased out",
+            "signeddate": "09-02-2014",
+            "expirydate": "06-04-2016",
+            "status": "Active",
+            "noticedate": "23-02-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Nabeel Khan",
+            "name": "Contract 8",
+            "type": "Commercial",
+            "signeddate": "07-06-2014",
+            "expirydate": "13-06-2015",
+            "status": "Expired",
+            "noticedate": "01-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Zain-ul-Abdeen",
+            "name": "Contract 9",
+            "type": "Leased in",
+            "signeddate": "12-02-2014",
+            "expirydate": "12-02-2015",
+            "status": "Expired",
+            "noticedate": "12-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Awais Majeed",
+            "name": "Contract 10",
+            "type": "Leased in",
+            "signeddate": "27-02-2013",
+            "expirydate": "12-02-2016",
+            "status": "Active",
+            "noticedate": "18-09-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            }
+      ]
+    },
+    {
+      "CustomerName": "New",
+      "name": "New",
+      "type": "Leased in",
+      "noOfFields":"6",
+      "categoryicon": "sap-icon://document",
+      "fields": [
+           
+            {
+            "CustomerName": "Hassan Zahid",
+            "name": "Contract 6",
+            "type": "Leased in",
+            "signeddate": "23-12-2008",
+            "expirydate": "25-12-2010",
+            "status": "Expired",
+            "noticedate": "21-11-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "عبد القادر",
+            "name": "Contract 7",
+            "type": "Leased in",
+            "signeddate": "11-09-2007",
+            "expirydate": "12-10-2011",
+            "status": "Expired",
+            "noticedate": "13-12-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Faizal Saleem",
+            "name": "Contract 7",
+            "type": "Leased out",
+            "signeddate": "09-02-2014",
+            "expirydate": "06-04-2016",
+            "status": "Active",
+            "noticedate": "23-02-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Nabeel Khan",
+            "name": "Contract 8",
+            "type": "Commercial",
+            "signeddate": "07-06-2014",
+            "expirydate": "13-06-2015",
+            "status": "Expired",
+            "noticedate": "01-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Zain-ul-Abdeen",
+            "name": "Contract 9",
+            "type": "Leased in",
+            "signeddate": "12-02-2014",
+            "expirydate": "12-02-2015",
+            "status": "Expired",
+            "noticedate": "12-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Awais Majeed",
+            "name": "Contract 10",
+            "type": "Leased in",
+            "signeddate": "27-02-2013",
+            "expirydate": "12-02-2016",
+            "status": "Active",
+            "noticedate": "18-09-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            }
+      ]
+    },
+     {
+      "CustomerName": "shared tasks",
+      "name": "shared tasks",
+      "type": "Leased in",
+      "noOfFields":"7",
+      "categoryicon": "sap-icon://share-2",
+      "fields": [
+            
+            
+            {
+            "CustomerName": "حسين الجسمي",
+            "name": "Contract 5",
+            "type": "Leased in",
+            "signeddate": "30-12-2015",
+            "expirydate": "12-08-2017",
+            "status": "Active",
+            "noticedate": "13-11-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Hassan Zahid",
+            "name": "Contract 6",
+            "type": "Leased in",
+            "signeddate": "23-12-2008",
+            "expirydate": "25-12-2010",
+            "status": "Expired",
+            "noticedate": "21-11-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "عبد القادر",
+            "name": "Contract 7",
+            "type": "Leased in",
+            "signeddate": "11-09-2007",
+            "expirydate": "12-10-2011",
+            "status": "Expired",
+            "noticedate": "13-12-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Faizal Saleem",
+            "name": "Contract 7",
+            "type": "Leased out",
+            "signeddate": "09-02-2014",
+            "expirydate": "06-04-2016",
+            "status": "Active",
+            "noticedate": "23-02-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Nabeel Khan",
+            "name": "Contract 8",
+            "type": "Commercial",
+            "signeddate": "07-06-2014",
+            "expirydate": "13-06-2015",
+            "status": "Expired",
+            "noticedate": "01-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Zain-ul-Abdeen",
+            "name": "Contract 9",
+            "type": "Leased in",
+            "signeddate": "12-02-2014",
+            "expirydate": "12-02-2015",
+            "status": "Expired",
+            "noticedate": "12-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Awais Majeed",
+            "name": "Contract 10",
+            "type": "Leased in",
+            "signeddate": "27-02-2013",
+            "expirydate": "12-02-2016",
+            "status": "Active",
+            "noticedate": "18-09-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            }
+      ]
+    },
+     {
+      "CustomerName": "my tasks",
+      "name": "my tasks",
+      "type": "Leased in",
+      "noOfFields":"8",
+      "categoryicon": "sap-icon://task",
+      "fields": [
+            {
+            "CustomerName": "سعد لمجرد",
+            "name": "Contract 4",
+            "type": "Commercial",
+            "signeddate": "19-04-2015",
+            "expirydate": "10-08-2016",
+            "status": "Active",
+            "noticedate": "12-03-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "حسين الجسمي",
+            "name": "Contract 5",
+            "type": "Leased in",
+            "signeddate": "30-12-2015",
+            "expirydate": "12-08-2017",
+            "status": "Active",
+            "noticedate": "13-11-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Hassan Zahid",
+            "name": "Contract 6",
+            "type": "Leased in",
+            "signeddate": "23-12-2008",
+            "expirydate": "25-12-2010",
+            "status": "Expired",
+            "noticedate": "21-11-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "عبد القادر",
+            "name": "Contract 7",
+            "type": "Leased in",
+            "signeddate": "11-09-2007",
+            "expirydate": "12-10-2011",
+            "status": "Active",
+            "noticedate": "13-12-2010",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Faizal Saleem",
+            "name": "Contract 7",
+            "type": "Leased out",
+            "signeddate": "09-02-2014",
+            "expirydate": "06-04-2016",
+            "status": "Active",
+            "noticedate": "23-02-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Nabeel Khan",
+            "name": "Contract 8",
+            "type": "Commercial",
+            "signeddate": "07-06-2014",
+            "expirydate": "13-06-2015",
+            "status": "Expired",
+            "noticedate": "01-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Zain-ul-Abdeen",
+            "name": "Contract 9",
+            "type": "Leased in",
+            "signeddate": "12-02-2014",
+            "expirydate": "12-02-2015",
+            "status": "Expired",
+            "noticedate": "12-01-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Awais Majeed",
+            "name": "Contract 10",
+            "type": "Leased in",
+            "signeddate": "27-02-2013",
+            "expirydate": "12-02-2016",
+            "status": "Active",
+            "noticedate": "18-09-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            }
+      ]
+    },
+     {
+      "CustomerName": "returned",
+      "name": "returned",
+      "type": "Leased in",
+      "noOfFields":"5",
+      "categoryicon": "sap-icon://undo",
+      "fields": [
+          
+            {
+            "CustomerName": "عبد الولِي",
+            "name": "Contract 2 ",
+            "type": "Leased in",
+            "signeddate": "31-12-2013",
+            "expirydate": "31-12-2014",
+            "status": "Expired",
+            "noticedate": "13-11-2014",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "هيفا وهبى",
+            "name": "Contract 3",
+            "type": "Leased out",
+            "signeddate": "17-04-2011",
+            "expirydate": "16-06-2013",
+            "status": "Expired",
+            "noticedate": "14-11-2012",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "سعد لمجرد",
+            "name": "Contract 4",
+            "type": "Commercial",
+            "signeddate": "19-04-2015",
+            "expirydate": "10-08-2016",
+            "status": "Active",
+            "noticedate": "12-03-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "حسين الجسمي",
+            "name": "Contract 5",
+            "type": "Leased in",
+            "signeddate": "30-12-2015",
+            "expirydate": "12-08-2017",
+            "status": "Active",
+            "noticedate": "13-11-2016",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            },
+            {
+            "CustomerName": "Awais Majeed",
+            "name": "Contract 10",
+            "type": "Leased in",
+            "signeddate": "27-02-2013",
+            "expirydate": "12-02-2016",
+            "status": "Active",
+            "noticedate": "18-09-2015",
+            "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
+            }
+      ]
+    }
+  ]
+}
