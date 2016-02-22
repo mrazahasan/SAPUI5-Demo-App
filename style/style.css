@@ -7,3 +7,49 @@
 	font-size: 0.875rem;
 	text-shadow: none;
 }
+#detail{
+    background-color:#F0E9CD !important
+}
+#caseDetail{
+    background-color:#F0E9CD !important
+}
+#case{
+    background-color:#F0E9CD !important
+}
+#splitApp-Master { 
+    background: #FFF url('../assets/logo_44.png') center bottom no-repeat !important; 
+    -webkit-background-size: 100% !important; 
+    -moz-background-size: 100% !important; 
+    background-size: 100% !important; 
+    }
+.sapMObjLIcon {
+    color: #8a6c40 !important;
+}
+.sapMOHIcon .sapUiIcon {
+    color: #8a6c40 !important;
+}
+.sapMText.sapMObjLTitle {
+    color: #8a6c40 !important;
+}
+.sapMOHTitle h1 .sapMText{
+    color: #8a6c40 !important;
+}
+.sapMShellBrandingBar{
+    background-color: #CA933A !important;
+}
+.sapMShellGlobalOuterBackground{
+    background-image: linear-gradient(to bottom,#F0E9CD 0,#8a6c40 50%,#8a6c40 100%) !important;
+}
+.sapMITBSelected .sapMITBFilterDefault {
+    background: #8a6c40 !important; 
+    color: #ffffff !important;
+}
+.sapMITBFilterIcon {
+    border: 1px solid #8a6c40 !important;
+}
+.sapMITBSelected>.sapMITBContentArrow {
+    border-bottom-color: #8a6c40 !important;
+}
+.sapMITBFilterDefault {
+    color: #8a6c40 !important;
+}
