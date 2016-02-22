@@ -182,7 +182,7 @@
             <ToolbarSpacer/>
             <Button text="Accept" type="Accept" />
             <Button text="Reject" type="Reject" />
-            <Button text="Delete" />
+            <Button text="Hold" />
         </Toolbar>
     </footer>
   </Page>
