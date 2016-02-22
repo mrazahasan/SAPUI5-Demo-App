@@ -149,6 +149,26 @@
                                             text="Approved" />                                            
                                     </cells>
                                 </ColumnListItem>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text
+                                            text="02/28/2015" />
+                                            <Text
+                                            text="17:00" />
+                                            <Text
+                                            text="" />                                            
+                                    </cells>
+                                </ColumnListItem>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text
+                                            text="03/12/2015" />
+                                            <Text
+                                            text="12:30" />
+                                            <Text
+                                            text="Approved" />                                            
+                                    </cells>
+                                </ColumnListItem>
                             </items>
                         </Table>
 					</IconTabFilter>
