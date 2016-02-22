@@ -203,10 +203,6 @@ sap.ui.define([
             handleLinkPress: function (oEvent) {
                 this._setAggregation(oEvent.getSource().getTarget());
             },
-
-
-
-
             // Take care of the navigation through the hierarchy when the
             // user selects a table row
             handleSelectionChange: function (oEvent) {

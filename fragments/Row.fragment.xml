@@ -9,39 +9,13 @@
 				title="{Name}"
 				text="{ProductId}" />
 			<Text
-				text="{
-					parts: [
-						{ path: 'Width' },
-						{ path: 'Depth' },
-						{ path: 'Height' },
-						{ path: 'DimUnit' }
-					],
-					formatter: 'com.tallymarks.z_fiori_test.format.Formatter.dimensions'
-				}" />
-                
-			<ObjectNumber
-				number="{WeightMeasure}"
-				unit="{WeightUnit}"
-				state="{
-					path: 'WeightMeasure',
-					formatter: 'com.tallymarks.z_fiori_test.format.Formatter.weightState'
-				}" />			
-                <Text
-				text="{
-					parts: [
-						{ path: 'Width' },
-						{ path: 'Depth' },
-						{ path: 'Height' },
-						{ path: 'DimUnit' }
-					],
-					formatter: 'com.tallymarks.z_fiori_test.format.Formatter.dimensions'
-				}" />
-                <ObjectNumber
-				number="{
-					path: 'Price',
-					formatter: 'com.tallymarks.z_fiori_test.format.Formatter.round2DP'
-				}"
-				unit="{CurrencyCode}" />
+				text="{noticedate}" />                
+			<Text
+				text="{status}" />		
+            <Text
+                text="{expirydate}" />
+            <Text
+				text="{signeddate}" />
 		</cells>
 	</ColumnListItem>
 </core:FragmentDefinition>

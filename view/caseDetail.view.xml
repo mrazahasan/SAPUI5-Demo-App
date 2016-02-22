@@ -15,20 +15,17 @@
 		fullScreenOptimized="false"
 		intro="Description"
 		title="Name"
-		number="01"
-		numberUnit="CurrencyCode"
-		numberState="Success"
 		backgroundDesign="Translucent">
 		<attributes>			
 			<ObjectAttribute
-				title="Notice Date"
-				text="13-11-2014"/>
+				title="Registration No"
+				text="2014-00626"/>
 			<ObjectAttribute
-				title="Signed date"
-				text="31-12-2013"/>
+				title="Author"
+				text="WEBSPHEREDES"/>
                 <ObjectAttribute
-				title="Expiry date	"
-				text="31-12-2014"/>			
+				title="Modifier"
+				text="WEBSPHEREDES"/>			
 		</attributes>
 		<statuses>
  			<ObjectStatus
