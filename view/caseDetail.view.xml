@@ -41,8 +41,7 @@
 				class="sapUiResponsiveContentPadding">
 				<items>					
 					<IconTabFilter
-						icon="sap-icon://attachment"
-						count="4">
+						icon="sap-icon://attachment">
 						<Table
                             selectionChange="handleSelectionChange"
                             inset="false"
@@ -92,11 +91,6 @@
                             </columns>
                         </Table>
 					</IconTabFilter>
-                    
-					<IconTabFilter
-						icon="sap-icon://notes">
-						<Text text="Info content goes here ..." />
-					</IconTabFilter>
 					<IconTabFilter
 						icon="sap-icon://hint"
 						>
@@ -121,6 +115,42 @@
                                 timestamp="March 03 2013"
                                 text="At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." />
                         </List>
+					</IconTabFilter>
+                    <IconTabFilter
+						icon="sap-icon://notes">
+						<Table 
+                            inset="false" >                            
+                            <columns>
+                                <Column
+                                    width="12em">
+                                    <Text text="Date" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Left">
+                                    <Text text="Time" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true"
+                                    hAlign="Left">
+                                    <Text text="Remarks" />
+                                </Column>                                
+                            </columns>
+                            <items>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text
+                                            text="02/22/2015" />
+                                            <Text
+                                            text="14:54" />
+                                            <Text
+                                            text="Approved" />                                            
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
 					</IconTabFilter>
 				</items>
 			</IconTabBar>

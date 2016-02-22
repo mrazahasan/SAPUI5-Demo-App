@@ -23,6 +23,8 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.master", {
  onListItemPress: function (evt) {
  	// console.log(evt.getSource().getTitle())
  	// self.getView('');
+     
+    //evt.getSource().addStyleClass("clickedItem");
     this.nav.to("detail", false);
  	k = evt.getSource().getId(); 
  	k = k.substring(k.length-1)
