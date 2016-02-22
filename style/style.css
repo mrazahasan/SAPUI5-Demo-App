@@ -53,3 +53,6 @@
 .sapMITBFilterDefault {
     color: #8a6c40 !important;
 }
+.clickedItem{
+    background: #503A3A !important;
+}
