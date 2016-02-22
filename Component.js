@@ -8,8 +8,6 @@ sap.ui.core.UIComponent.extend("com.tallymarks.z_fiori_test.Component", {
     
     metadata : {
 			includes : [ "style/style.css", "JS/script.js" ],
-          
-			
 		},
     createContent : function() {
         // create root view
