@@ -180,8 +180,8 @@
       ]
     },
      {
-      "CustomerName": "shared tasks",
-      "name": "shared tasks",
+      "CustomerName": "Shared Tasks",
+      "name": "Shared Tasks",
       "type": "Leased in",
       "noOfFields":"7",
       "categoryicon": "sap-icon://share-2",
@@ -261,8 +261,8 @@
       ]
     },
      {
-      "CustomerName": "my tasks",
-      "name": "my tasks",
+      "CustomerName": "My Tasks",
+      "name": "My Tasks",
       "type": "Leased in",
       "noOfFields":"8",
       "categoryicon": "sap-icon://task",
@@ -350,8 +350,8 @@
       ]
     },
      {
-      "CustomerName": "returned",
-      "name": "returned",
+      "CustomerName": "Returned",
+      "name": "Returned",
       "type": "Leased in",
       "noOfFields":"5",
       "categoryicon": "sap-icon://undo",

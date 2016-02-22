@@ -15,7 +15,7 @@
 		fullScreenOptimized="false"
 		intro="Description"
 		title="Name"
-		backgroundDesign="Translucent">
+		backgroundDesign="Transparent">
 		<attributes>			
 			<ObjectAttribute
 				title="Registration No"
@@ -92,17 +92,36 @@
                             </columns>
                         </Table>
 					</IconTabFilter>
+                    
 					<IconTabFilter
-						icon="sap-icon://notes"
-						>
-						<Text text="Notes go here ..." />
-					</IconTabFilter>
-					
-					<IconTabFilter
-						icon="sap-icon://hint">
+						icon="sap-icon://notes">
 						<Text text="Info content goes here ..." />
 					</IconTabFilter>
-					
+					<IconTabFilter
+						icon="sap-icon://hint"
+						>
+                        <FeedInput  
+                            placeholder="..."                          
+                            class="sapUiSmallMarginTopBottom" />
+                        <List
+                            showSeparators="Inner"
+                           >
+                            <FeedListItem
+                                sender="Victoria"
+                                icon="http://upload.wikimedia.org/wikipedia/commons/a/aa/Dronning_victoria.jpg"
+                                iconDensityAware="false"
+                                info="Request"
+                                timestamp="March 03 2013"
+                                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiamnonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." />
+                            <FeedListItem
+                                sender="George"
+                                icon="https://sapui5.netweaver.ondemand.com/sdk/test-resources/sap/m/images/george_washington.jpg"
+                                iconDensityAware="false"
+                                info="Reply"
+                                timestamp="March 03 2013"
+                                text="At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." />
+                        </List>
+					</IconTabFilter>
 				</items>
 			</IconTabBar>
 		</headerContainer>

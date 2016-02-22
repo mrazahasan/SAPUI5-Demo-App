@@ -75,6 +75,7 @@ sap.ui.define([
      onExit: function() {
     
      },
+     
     // Setup crumb info, the collection root
             // and an initial product selection / order state
             sCollection: "/ProductHierarchy",

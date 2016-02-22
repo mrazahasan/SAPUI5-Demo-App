@@ -1,6 +1,7 @@
 <mvc:View 
   height="100%" 
   xmlns:mvc="sap.ui.core.mvc"
+  xmlns:l="sap.ui.layout"
   controllerName="com.tallymarks.z_fiori_test.view.master" 
   xmlns="sap.m"> 
   <Page 
@@ -24,5 +25,6 @@
         </items>
       </List>
     </content>
+    
   </Page>
 </mvc:View>

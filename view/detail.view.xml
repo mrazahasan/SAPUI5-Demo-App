@@ -9,12 +9,11 @@
     class="sapUiContentPadding">
     <content>
         <ObjectHeader
-            backgroundDesign="Solid"
+            
             binding="{/Contracts/0}"
             title="{name}"
             icon="{categoryicon}"
-            number="{noOfFields}"
-            numberState="Success"
+            number="{noOfFields}"            
             numberUnit="Cases">
         </ObjectHeader>       
         <Table id="idProductsTable"
