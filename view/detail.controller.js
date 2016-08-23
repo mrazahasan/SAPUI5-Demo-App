@@ -74,7 +74,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
   onBarcodeSearch: function(sQuery) {
     
     // add filter for search
-    //var aFilters = [];
+    var aFilters = [];
     //var sQuery = oEvt.getSource().getValue();
     jQuery.sap.require("sap.m.MessageToast");
     sap.m.MessageToast.show("This is the code:"+sQuery);
