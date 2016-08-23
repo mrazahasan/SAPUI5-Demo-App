@@ -76,7 +76,8 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
     // add filter for search
     //var aFilters = [];
     //var sQuery = oEvt.getSource().getValue();
-    alert("Scanned Code: " + sQuery);
+    jQuery.sap.require("sap.m.MessageToast");
+    sap.m.MessageToast.show("This is the code:"+sQuery);
     if (sQuery && sQuery.length > 0) {      
       aFilters.push(new sap.ui.model.Filter("CustomerName", sap.ui.model.FilterOperator.Contains, sQuery));
       aFilters.push(new sap.ui.model.Filter("noticedate", sap.ui.model.FilterOperator.Contains, sQuery));
