@@ -27,7 +27,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
             oCode = result.text;
             console.log("This is the code: " + oCode);
             alert("Scanned Code: " + oCode);
-            that.getView().byId("searchKeyName").setValue(oCode);
+            that.onBarcodeSearch(oCode);
             //that.onSearch();
         },
         function(error) {
@@ -70,6 +70,27 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
 
     binding.sort(aSorters);
 
+  },
+  onBarcodeSearch: function(sQuery) {
+    
+    // add filter for search
+    //var aFilters = [];
+    //var sQuery = oEvt.getSource().getValue();
+    if (sQuery && sQuery.length > 0) {      
+      aFilters.push(new sap.ui.model.Filter("CustomerName", sap.ui.model.FilterOperator.Contains, sQuery));
+      aFilters.push(new sap.ui.model.Filter("noticedate", sap.ui.model.FilterOperator.Contains, sQuery));
+      aFilters.push(new sap.ui.model.Filter("status", sap.ui.model.FilterOperator.Contains, sQuery));
+      aFilters.push(new sap.ui.model.Filter("signeddate", sap.ui.model.FilterOperator.Contains, sQuery));
+      aFilters.push(new sap.ui.model.Filter("expirydate", sap.ui.model.FilterOperator.Contains, sQuery));
+      var allFilter = new sap.ui.model.Filter(aFilters);
+    }
+
+    // update list binding
+    var list = this.getView().byId("idProductsTable");
+    var binding = list.getBinding("items");
+    binding.filter(allFilter, "Application");
+
+    this.handleFilterChange();
   },
   onSearchName: function(oEvt) {
     
