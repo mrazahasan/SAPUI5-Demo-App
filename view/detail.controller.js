@@ -19,6 +19,22 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
  	sap.ui.getCore().byId('detail').setModel(new sap.ui.model.json.JSONModel(DataSrc2));
      
  },
+ onBarCodeScan: function() {
+        var that = this;
+        var oCode = "";
+        cordova.plugins.barcodeScanner.scan(
+        function(result) {
+            oCode = result.text;
+            console.log("This is the code: " + oCode);
+            //that.getView().byId("searchField").setValue(oCode);
+            //that.onSearch();
+        },
+        function(error) {
+            console.log("Scanning allowed only in Mobile devices ");
+            // alert("Scanning failed: " + error);
+        }
+        );
+    },
  onAfterRendering : function() {
     console.info('[AfterRendering]: detail Controller ');
     this.handleFilterChange();
