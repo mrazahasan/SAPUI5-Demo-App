@@ -19,7 +19,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.master", {
  onAfterRendering : function() {
     console.info('[AfterRendering]: master Controller ');
  },
- 
+    
  onListItemPress: function (evt) {
  	// console.log(evt.getSource().getTitle())
  	// self.getView('');

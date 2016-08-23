@@ -7,6 +7,26 @@
   <Page
     title="Tasks"
     class="sapUiContentPadding">
+    <subHeader>
+			<Toolbar>
+				<SearchField
+                    placeholder="Search"
+					width="100%"
+                    id="searchKeyName" 
+                    liveChange="onSearchName" />
+                <ToolbarSpacer/>				
+                <Select id="filterSelect" autoAdjustWidth="true" change="handleFilterChange"  icon="sap-icon://filter"
+                        type="IconOnly">
+                        <items>
+                            <core:Item key="AN" text="Sort Ascending by Name"/>
+                            <core:Item key="DN" text="Sort Descending by Name"/>
+                            <core:Item key="AS" text="Sort Status 'Active'"/>
+                            <core:Item key="DS" text="Sort Status 'Expired'"/>
+                        </items>
+                    </Select>
+                    <Button icon="sap-icon://bar-code" press="onBarCodeScan" ariaLabelledBy="Scanbar Code"/>
+			</Toolbar>
+		</subHeader>
     <content>
         <ObjectHeader
             
@@ -19,22 +39,14 @@
         <Table id="idProductsTable"
             inset="false"
             items="{/Contracts/0/fields}">
-            <headerToolbar>
+            <!--<headerToolbar>
                 <Toolbar>
-                    <!--<Title text="{name}" level="H2"/>-->
+                    
                     <ToolbarSpacer/>
-                    <SearchField id="searchKeyName" liveChange="onSearchName" width="30%" placeholder="Search"/>
-                    <Select id="filterSelect" autoAdjustWidth="true" change="handleFilterChange"  icon="sap-icon://filter"
-                        type="IconOnly">
-                        <items>
-                            <core:Item key="AN" text="Sort Ascending by Name"/>
-                            <core:Item key="DN" text="Sort Descending by Name"/>
-                            <core:Item key="AS" text="Sort Status 'Active'"/>
-                            <core:Item key="DS" text="Sort Status 'Expired'"/>
-                        </items>
-                    </Select>
+                    <SearchField  width="30%" />
+                    
                 </Toolbar>
-            </headerToolbar>
+            </headerToolbar>-->
             <columns>
                 <Column
                     width="12em">
