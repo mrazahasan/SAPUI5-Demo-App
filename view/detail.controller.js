@@ -26,12 +26,13 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
         function(result) {
             oCode = result.text;
             console.log("This is the code: " + oCode);
+            alert("Scanned Code: " + oCode);
             //that.getView().byId("searchField").setValue(oCode);
             //that.onSearch();
         },
         function(error) {
             console.log("Scanning allowed only in Mobile devices ");
-            // alert("Scanning failed: " + error);
+            alert("Scanning failed: " + error);
         }
         );
     },
