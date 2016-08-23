@@ -26,7 +26,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
         function(result) {
             oCode = result.text;
             console.log("This is the code: " + oCode);
-            alert("Scanned Code: " + oCode);
+            
             that.onBarcodeSearch(oCode.toString());
             //that.onSearch();
         },
@@ -76,6 +76,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
     // add filter for search
     //var aFilters = [];
     //var sQuery = oEvt.getSource().getValue();
+    alert("Scanned Code: " + sQuery);
     if (sQuery && sQuery.length > 0) {      
       aFilters.push(new sap.ui.model.Filter("CustomerName", sap.ui.model.FilterOperator.Contains, sQuery));
       aFilters.push(new sap.ui.model.Filter("noticedate", sap.ui.model.FilterOperator.Contains, sQuery));
