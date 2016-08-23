@@ -27,7 +27,7 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
             oCode = result.text;
             console.log("This is the code: " + oCode);
             alert("Scanned Code: " + oCode);
-            //that.getView().byId("searchField").setValue(oCode);
+            that.getView().byId("searchKeyName").setValue(oCode);
             //that.onSearch();
         },
         function(error) {
