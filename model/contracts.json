@@ -8,7 +8,7 @@
       "categoryicon": "sap-icon://switch-views",
       "fields": [ 
            {
-            "CustomerName": "عبد الولِي",
+            "CustomerName": "Raza",
             "name": "Contract 2 ",
             "type": "Leased in",
             "signeddate": "31-12-2013",
@@ -28,7 +28,7 @@
             "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
             },
             {
-            "CustomerName": "سعد لمجرد",
+            "CustomerName": "Ismail",
             "name": "Contract 4",
             "type": "Commercial",
             "signeddate": "19-04-2015",
@@ -38,7 +38,7 @@
             "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
             },
             {
-            "CustomerName": "حسين الجسمي",
+            "CustomerName": "Faraz",
             "name": "Contract 5",
             "type": "Leased in",
             "signeddate": "30-12-2015",
@@ -48,7 +48,7 @@
             "image": "http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley.jpg"
             },
             {
-            "CustomerName": "عبد القادر",
+            "CustomerName": "Imad",
             "name": "Contract 7",
             "type": "Leased in",
             "signeddate": "11-09-2007",
