@@ -16,12 +16,12 @@
 #case{
     background-color:#F0E9CD !important
 }
-#splitApp-Master { 
+/*#splitApp-Master { 
     background: #FFF url('../assets/logo_44.png') center bottom no-repeat !important; 
     -webkit-background-size: 100% !important; 
     -moz-background-size: 100% !important; 
     background-size: 80% !important; 
-    }
+    }*/
 .sapMObjLIcon {
     color: #8a6c40 !important;
 }
