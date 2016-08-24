@@ -11,7 +11,7 @@ sap.ui.jsview("com.tallymarks.z_fiori_test.view.App", {
     this.setDisplayBlock(true);
 
     // create app
-    this.app = new sap.m.SplitApp("splitApp",{mode : sap.m.SplitAppMode.ShowHideMode});
+    this.app = new sap.m.SplitApp("splitApp",{mode : sap.m.SplitAppMode.HideMode});
     
     // load the master page
     var master = sap.ui.xmlview("master", "com.tallymarks.z_fiori_test.view.master");
