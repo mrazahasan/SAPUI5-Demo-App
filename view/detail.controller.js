@@ -72,9 +72,12 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
 
   },
   printPage : function(){
-    var page = location.href;
 
-    cordova.plugins.printer.print(page, 'Document.html');
+    var page = location.href;
+    if(cordova)
+      cordova.plugins.printer.print(page, 'Document.html');
+    else
+      window.print();
   },
   onBarcodeSearch: function(sQuery) {
     
