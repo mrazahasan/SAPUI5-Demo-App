@@ -71,6 +71,9 @@ sap.ui.controller("com.tallymarks.z_fiori_test.view.detail", {
     binding.sort(aSorters);
 
   },
+  printPage : function(){
+    window.print();
+  },
   onBarcodeSearch: function(sQuery) {
     
     // add filter for search
