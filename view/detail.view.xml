@@ -37,6 +37,9 @@
             numberUnit="Cases">
         </ObjectHeader>       
         <Table id="idProductsTable"
+            growing="true"
+		    growingThreshold="20"
+		    growingScrollToLoad="false"
             inset="false"
             items="{/Contracts/0/fields}">
             <!--<headerToolbar>
